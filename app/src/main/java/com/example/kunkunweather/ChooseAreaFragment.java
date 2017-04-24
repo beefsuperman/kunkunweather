@@ -109,7 +109,7 @@ public class ChooseAreaFragment extends Fragment {
     }
 
     private void queryProvinces() {
-        titleText.setText("大家的祖国");
+        titleText.setText("这里是祖国");
         backButton.setVisibility(View.GONE);
         provinceList= DataSupport.findAll(Province.class);
         if (provinceList.size()>0){
